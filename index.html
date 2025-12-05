@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Send Student Email</title>
+</head>
+<body style="font-family: Arial; margin: 40px;">
+    <h2>Send Email to Student</h2>
+
+    <form action="send-email.php" method="POST">
+        <label>Student Name:</label><br>
+        <input type="text" name="studentName" required><br><br>
+
+        <label>Student ID:</label><br>
+        <input type="text" name="studentId" required><br><br>
+
+        <label>Recipient Email:</label><br>
+        <input type="email" name="recipientEmail" required><br><br>
+
+        <button type="submit" style="padding:10px 20px; cursor:pointer;">Send Email</button>
+    </form>
+</body>
+</html>

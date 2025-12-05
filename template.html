@@ -1,0 +1,53 @@
+<div style="
+    max-width: 480px;
+    margin: auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #e5e5e5;
+">
+
+  <h2 style="color: #333; text-align: center; margin-bottom: 20px;">
+    📘 Student Information
+  </h2>
+
+  <p style="font-size: 16px; color: #555;">
+    Hello,
+    <br><br>
+    Below is the submitted student information:
+  </p>
+
+  <div style="
+      background: #f9f9f9;
+      padding: 15px 20px;
+      border-radius: 10px;
+      margin-bottom: 25px;
+      border-left: 4px solid #007bff;
+  ">
+      <p style="margin:0; font-size:16px;">
+        <strong>Student Name:</strong> {{studentName}}
+      </p>
+
+      <p style="margin:0; font-size:16px; margin-top:10px;">
+        <strong>Student ID:</strong> {{studentId}}
+      </p>
+  </div>
+
+  <a href="{{repoUrl}}" style="
+      display: block;
+      text-align: center;
+      background: #007bff;
+      color: #fff;
+      padding: 12px 20px;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 8px;
+  ">
+    🔗 Visit GitHub Repository
+  </a>
+
+  <p style="font-size: 13px; margin-top: 20px; color: #777; text-align:center;">
+    This email was sent automatically from the student information portal.
+  </p>
+</div>
