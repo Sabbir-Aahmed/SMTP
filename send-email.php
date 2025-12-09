@@ -60,7 +60,7 @@ try {
     $mail->addAddress($recipientEmail);
 
     $mail->isHTML(true);
-    $mail->Subject = "Student Information for $studentName";
+    $mail->Subject = "CSE_57A_day_2222081019_CSEC422_SMTP_assignment";
     $mail->Body = $body;
 
     $mail->send();
